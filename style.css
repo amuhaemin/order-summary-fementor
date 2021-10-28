@@ -6,6 +6,7 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
+  --bluish: hsl(245, 75%, 65%);
 }
 /* PRESET */
 html {
@@ -84,10 +85,12 @@ p {
   color: var(--bright-blue);
   cursor: pointer;
   justify-self: end;
+  font-weight: 700;
 }
 .plans_link:hover {
-  color: var(--desaturated-blue);
+  color: var(--bluish);
   text-decoration: none;
+  transition: all 0.2s;
 }
 .buttons > button {
   cursor: pointer;
@@ -107,7 +110,8 @@ p {
   -moz-box-shadow: 0px 18px 18px -9px rgba(0, 0, 0, 0.14);
 }
 .btn_submit:hover {
-  background-color: var(--desaturated-blue);
+  background-color: var(--bluish);
+  transition: all 0.2s;
 }
 .btn_cancel {
   background-color: inherit;
@@ -116,6 +120,7 @@ p {
 }
 .btn_cancel:hover {
   color: var(--dark-blue);
+  transition: all 0.2s;
 }
 @media (min-width: 375px) and (max-width: 768px) {
   body {
