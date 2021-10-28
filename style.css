@@ -117,7 +117,7 @@ p {
 .btn_cancel:hover {
   color: var(--dark-blue);
 }
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 768px) {
   body {
     background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
